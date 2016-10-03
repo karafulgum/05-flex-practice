@@ -1,20 +1,25 @@
 .flex {
   display: flex;
   justify-content: center;
-  padding: 6rem;
+  padding: 5rem;
   background: $c-flex;
 
   &__text {
     margin: 0;
     color: $c-white;
+    font-weight: bold;
   }
 }
 
 .absolute {
+  position: absolute;
+  padding: 5rem;
+  transform: translate(50%, 0);
   background: $c-absolute;
 
   &__text {
     margin: 0;
     color: $c-white;
+    font-weight: bold;
   }
 }
