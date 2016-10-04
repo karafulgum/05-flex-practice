@@ -5,6 +5,7 @@
   background: $c-flex;
 
   &__text {
+    max-width: 65rem;
     margin: 0;
     color: $c-white;
     font-weight: bold;
@@ -13,10 +14,16 @@
 
 .absolute {
   position: absolute;
-  transform: translate(50%, 0);
+  left: 50%;
+  width: 100%;
+  max-width: 65rem;
+  padding: 5rem;
+  transform: translate(-50%, 0);
   background: $c-absolute;
+  text-align: center;
 
   &__text {
+    max-width: 65rem;
     margin: 0;
     color: $c-white;
     font-weight: bold;
