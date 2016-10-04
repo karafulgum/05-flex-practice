@@ -13,8 +13,7 @@
 
 .absolute {
   position: absolute;
-  padding: 5rem 30rem;
-  transform: translate(0, 0);
+  transform: translate(50%, 0);
   background: $c-absolute;
 
   &__text {
