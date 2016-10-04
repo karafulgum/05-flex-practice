@@ -9,6 +9,7 @@
     margin: 0;
     color: $c-white;
     font-weight: bold;
+    text-align: center;
   }
 }
 
@@ -16,16 +17,15 @@
   position: absolute;
   left: 50%;
   width: 100%;
-  max-width: 65rem;
   padding: 5rem;
   transform: translate(-50%, 0);
   background: $c-absolute;
-  text-align: center;
 
   &__text {
     max-width: 65rem;
     margin: 0;
     color: $c-white;
     font-weight: bold;
+    text-align: center;
   }
 }
