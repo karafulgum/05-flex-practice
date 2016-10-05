@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  position: relative;
+  bottom: 0;
+  justify-content: space-around;
+  min-width: 20rem;
+  max-width: 90rem;
+  background: $c-footer;
+  color: $c-white;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}

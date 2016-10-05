@@ -1,6 +1,7 @@
 $c-white: #fff;
 $c-flex: #020e4e;
 $c-absolute: #5b0e13;
+$c-footer: #333;
 
 // @import 'yoga-sass/assets/yoga';
 // @import 'normalize-css/normalize';
@@ -12,3 +13,4 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'components/navbar';
 @import 'components/hero';
 @import 'components/main';
+@import 'components/footer';
