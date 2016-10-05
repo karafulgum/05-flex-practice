@@ -1,14 +1,8 @@
 .navbar {
-  min-width: 20rem;
-  max-width: 90rem;
-  padding: 0.5rem;
+  padding: 1rem 1rem;
   background: #9c0b50;
   color: $c-white;
-  overflow: auto;
-
-  &__container {
-    margin: 0 8rem;
-  }
+  // overflow: auto;
 
   p {
     margin: 0;

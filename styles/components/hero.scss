@@ -1,6 +1,5 @@
 .flex {
   min-width: 20rem;
-  max-width: 90rem;
   padding: 5rem;
   background: $c-flex;
 
@@ -10,7 +9,6 @@
     margin: 0;
     color: $c-white;
     font-weight: bold;
-    // text-align: center;
   }
 }
 
@@ -18,17 +16,16 @@
   position: relative;
   width: 100%;
   min-width: 20rem;
-  max-width: 90rem;
   padding: 5rem;
   background: $c-absolute;
 
   &__text {
     position: absolute;
     left: 50%;
-    max-width: 65rem;
     margin: 0;
     transform: translate(-50%, 0);
     color: $c-white;
     font-weight: bold;
+    text-align: center;
   }
 }

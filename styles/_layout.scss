@@ -1,0 +1,21 @@
+.full-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  &__content {
+    flex-grow: 1;
+  }
+}
+
+.container {
+  min-width: 20rem;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
