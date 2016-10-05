@@ -1,12 +1,14 @@
 .footer {
+  position: relative;
+  bottom: 0;
   min-width: 20rem;
   margin-top: 1rem;
   background: $c-footer;
   color: $c-white;
 
   &__nav-bar {
-    // display: flex;
-    // justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
   }
 
   a {
