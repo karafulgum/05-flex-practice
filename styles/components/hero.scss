@@ -1,21 +1,24 @@
 .flex {
+  min-width: 20rem;
+  max-width: 90rem;
   padding: 5rem;
   background: $c-flex;
 
   &__text {
     display: flex;
     justify-content: center;
-    max-width: 65rem;
     margin: 0;
     color: $c-white;
     font-weight: bold;
-    text-align: center;
+    // text-align: center;
   }
 }
 
 .absolute {
   position: relative;
   width: 100%;
+  min-width: 20rem;
+  max-width: 90rem;
   padding: 5rem;
   background: $c-absolute;
 
