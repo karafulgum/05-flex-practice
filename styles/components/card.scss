@@ -1,53 +1,18 @@
-.container {
-  min-width: 20rem;
-  max-width: 50rem;
-  margin: 0 auto;
-}
+.card {
+  min-width: 5rem;
+  max-width: 8rem;
 
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 1rem 0;
-
-  &__item {
-    flex-grow: 1;
-    margin: 1rem;
-    box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
-
-    &--sixth {
-      flex-bases: calc(100% / 6 - 1rem - 1rem);
-    }
+  &__text {
+    padding: 0.5rem;
   }
-}
 
-// .card {
-//   // width: calc(100% / 6 - 1rem - 1rem);
-//   min-width: 5rem;
-//   // margin: 1rem;
+  &__title {
+    margin: 0;
+    font-weight: bold;
+  }
 
-//   &__text {
-//     padding: 0.5rem;
-//   }
-//
-//   &__title {
-//     margin: 0;
-//     font-weight: bold;
-//   }
-//
-//   &__info {
-//     margin-bottom: 0;
-//     font-size: 0.8rem;
-//   }
-// }
-
-.big-card {
-  width: 100%;
-  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
-
-  &__image {
-    display: flex;
-    flex-direction: column;
-    // flex-wrap: wrap;
+  &__info {
+    margin-bottom: 0;
+    font-size: 0.8rem;
   }
 }
