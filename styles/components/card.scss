@@ -9,28 +9,37 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: 1rem 0;
-}
 
-.card {
-  width: calc(100% / 6 - 1rem - 1rem);
-  min-width: 5rem;
-  margin: 1rem;
-  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+  &__item {
+    flex-grow: 1;
+    margin: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 
-  &__text {
-    padding: 0.5rem;
-  }
-
-  &__title {
-    margin: 0;
-    font-weight: bold;
-  }
-
-  &__info {
-    margin-bottom: 0;
-    font-size: 0.8rem;
+    &--sixth {
+      flex-bases: calc(100% / 6 - 1rem - 1rem);
+    }
   }
 }
+
+// .card {
+//   // width: calc(100% / 6 - 1rem - 1rem);
+//   min-width: 5rem;
+//   // margin: 1rem;
+
+//   &__text {
+//     padding: 0.5rem;
+//   }
+//
+//   &__title {
+//     margin: 0;
+//     font-weight: bold;
+//   }
+//
+//   &__info {
+//     margin-bottom: 0;
+//     font-size: 0.8rem;
+//   }
+// }
 
 .big-card {
   width: 100%;

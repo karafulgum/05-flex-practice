@@ -7,3 +7,26 @@
     flex-grow: 1;
   }
 }
+
+.container {
+  min-width: 20rem;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem 0;
+
+  &__item {
+    flex-grow: 1;
+    margin: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+
+    &--sixth {
+      flex-bases: calc(100% / 6 - 1rem - 1rem);
+    }
+  }
+}
