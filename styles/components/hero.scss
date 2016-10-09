@@ -1,26 +1,33 @@
 .flex {
+  display: flex;
+  align-self: center;
+  justify-content: center;
   min-width: 20rem;
-  padding: 5rem;
+  min-height: 20vh;
+  margin: 0;
   background: $c-flex;
+  color: $c-white;
+  font-weight: bold;
 
-  &__text {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    color: $c-white;
-    font-weight: bold;
-  }
+  // &__text {
+  //   display: flex;
+  //   justify-content: center;
+  //   margin: 0;
+  //   color: $c-white;
+  //   font-weight: bold;
+  // }
 }
 
 .absolute {
   position: relative;
   width: 100%;
   min-width: 20rem;
-  padding: 5rem;
+  min-height: 20vh;
   background: $c-absolute;
 
   &__text {
     position: absolute;
+    top: 50%;
     left: 50%;
     margin: 0;
     transform: translate(-50%, 0);
