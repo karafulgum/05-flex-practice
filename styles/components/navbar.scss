@@ -1,7 +1,8 @@
 .navbar {
-  padding: 1rem 6rem;
+  padding: 1rem;
   background: $c-nav;
   color: $c-white;
+  min-width: 25rem;
   // overflow: auto;
 
   p {
