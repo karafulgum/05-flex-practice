@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   min-width: 20rem;
-  min-height: 20vh;
+  height: 5rem;
   // margin: 0;
   background: $c-flex;
   color: $c-white;
@@ -16,18 +16,19 @@
 
 .absolute {
   position: relative;
-  width: 100%;
+  // width: 100%;
   min-width: 20rem;
-  min-height: 20vh;
+  height: 5rem;
   background: $c-absolute;
   overflow: auto;
 
   &__text {
     position: absolute;
-    top: 0;
+    top: 50%;
     left: 50%;
+    // margin: 0;
+    transform: translate(-50%, -50%);
     margin: 0;
-    transform: translate(-50%, 50%);
     color: $c-white;
     font-weight: bold;
     text-align: center;
