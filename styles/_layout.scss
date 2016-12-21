@@ -1,0 +1,33 @@
+.full-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  &__content {
+    flex-grow: 1;
+  }
+}
+
+.container {
+  min-width: 20rem;
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -1rem;
+
+  &__item {
+    flex-grow: 1;
+    margin: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
+
+    &--sixth {
+      flex-basis: calc(100% / 5 - 1rem - 1rem);
+    }
+  }
+}
